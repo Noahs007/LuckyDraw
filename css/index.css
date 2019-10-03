@@ -1,0 +1,85 @@
+/* CSS Document */
+ul,li{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	font-family: "微软雅黑";
+	background-color:beige;
+}
+#box{
+	margin: 80px auto;
+	position: relative;
+	width:306px;
+	height: 306px;
+	border-radius: 12px;
+}
+#box>div{
+	position: absolute;
+	width:100px;
+	height: 100px;
+	background-color:rgba(254,153,52,1);
+	line-height: 100px;
+	text-align: center;
+	border: 1px solid white;
+	color: white;
+	border-radius: 12px;
+	opacity: 0.9;
+	background-size: auto 60px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#box>div:nth-child(1){
+	left:0px ;
+	top: 0px ;
+}
+#box>div:nth-child(2){
+	left:102px;
+	top: 0px;
+}
+#box>div:nth-child(3){
+	right:0px;
+	top: 0px;
+}
+#box>div:nth-child(4){
+	right:0px ;
+	top: 102px ;
+}
+#box>div:nth-child(5){
+	right:0px;
+	bottom: 0px;
+}
+#box>div:nth-child(6){
+	left:102px ;
+	bottom:0px ;
+}
+#box>div:nth-child(7){
+	left:0px;
+	bottom: 0px;
+}
+#box>div:nth-child(8){
+	left:0px;
+	top: 102px;
+}
+/*开始*/
+#btn{
+	cursor: pointer;
+	background-color: crimson !important;
+	right:102px;
+	top: 102px;
+}
+#btn:hover{
+	font-weight:bold;
+}
+.money{
+	background-image: url(../images/honbao.png);
+}
+.phone{
+	background-image: url(../images/iphone.png);
+}
+.nothing{
+	background-image: url(../images/ku.png);
+}
+.active{
+	background-color:crimson !important;
+}
