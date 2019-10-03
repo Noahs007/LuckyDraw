@@ -1,7 +1,7 @@
 # 九宫格抽奖
 - 很久前的一个前端小项目吧。
 
-##效果截图
+## 效果截图
  ![image](https://github.com/norkmGitHub/LuckyDraw/blob/master/images/1.png)
  
  
